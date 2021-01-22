@@ -1,5 +1,5 @@
 # Typed EventEmitter for TypeScript
-This is fairly simple class, for making Typed events
+This is a fairly simple class, for making emitting/subscriping to typed events
 
 ## Usage
 ```ts
@@ -32,6 +32,11 @@ emitter.emit('data', {
   'message': 'Hello!'
 })
 
+```
+
+## Extending class
+```ts
+
 class MyClass extends TypedEmitter<MyEvents> {
   constructor() {
     super()
@@ -41,3 +46,4 @@ class MyClass extends TypedEmitter<MyEvents> {
     })
   }
 }
+```
