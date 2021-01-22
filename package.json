@@ -32,9 +32,9 @@
 		"typescript",
 		"eventemitter"
 	],
+	"homepage": "https://github.com/jeppech/typed-emitter#readme",
 	"bugs": {
 		"url": "https://github.com/jeppech/typed-emitter/issues"
 	},
-	"homepage": "https://github.com/jeppech/typed-emitter#readme",
 	"license": "ISC"
 }
