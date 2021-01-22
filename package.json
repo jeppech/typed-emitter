@@ -17,7 +17,7 @@
 	],
   "scripts": {
 		"tsc": "tsc && tsc -p tsconfig.cjs.json",
-		"prepublish": "tsc"
+		"prepublishOnly": "tsc"
 	},
   "repository": {
     "type": "git",
