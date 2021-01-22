@@ -3,7 +3,7 @@ This is fairly simple class, for making Typed events
 
 ## Usage
 ```ts
-import { TypedEmitter } from 'jeppech/typed-emitter'
+import { TypedEmitter } from '@jeppech/typed-emitter'
 
 // Start by declaring an interface, describing your events and data types
 
