@@ -1,7 +1,7 @@
 {
 	"name": "@jeppech/typed-emitter",
 	"description": "Typed EventEmitter for TypeScript",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"author": "Jeppe Christiansen",
 	"repository": {
 		"type": "git",
