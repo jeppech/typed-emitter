@@ -1,5 +1,5 @@
-# Typed EventEmitter for TypeScript
-This is a fairly simple class, for making emitting/subscriping to typed events
+# Typed event emitter
+This is a fairly simple class, for emitting/subscriping to typed events
 
 ## Installation
 Use your favourite package manager.
