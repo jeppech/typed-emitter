@@ -16,7 +16,7 @@
 		"README.md"
 	],
   "scripts": {
-		"tsc": "tsc tsconfig.json && tsc -p tsconfig.cjs.json",
+		"tsc": "tsc && tsc -p tsconfig.cjs.json",
 		"prepublish": "tsc"
 	},
   "repository": {
