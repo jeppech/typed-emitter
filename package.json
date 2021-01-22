@@ -1,0 +1,39 @@
+{
+  "name": "@jeppech/typed-emitter",
+  "version": "1.0.0",
+	"description": "Typed EventEmitter for TypeScript",
+	"main": "./lib/cjs/index.js",
+	"module": "./lib/esm/index.js",
+	"types": "./lib/index.d.ts",
+	"exports": {
+		".": {
+			"require": "./lib/cjs/index.js",
+			"import": "./lib/esm/index.js"
+		}
+	},
+	"files": [
+		"lib/",
+		"README.md"
+	],
+  "scripts": {
+		"tsc": "tsc tsconfig.json && tsc -p tsconfig.cjs.json",
+		"prepublish": "tsc"
+	},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeppech/typed-emitter.git"
+  },
+  "keywords": [
+    "typescript",
+    "eventemitter"
+	],
+  "author": "Jeppe Christiansen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeppech/typed-emitter/issues"
+  },
+  "homepage": "https://github.com/jeppech/typed-emitter#readme",
+  "devDependencies": {
+    "typescript": "^4.1.3"
+  }
+}
