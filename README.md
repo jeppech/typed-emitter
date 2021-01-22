@@ -1,6 +1,12 @@
 # Typed EventEmitter for TypeScript
 This is a fairly simple class, for making emitting/subscriping to typed events
 
+## Installation
+Use your favourite package manager.
+```
+pnpm add @jeppech/typed-emitter
+```
+
 ## Usage
 ```ts
 import { TypedEmitter } from '@jeppech/typed-emitter'
